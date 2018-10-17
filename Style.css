@@ -1,0 +1,849 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	height: 100%;
+}
+
+.container
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
+}
+
+.container .efek-gelap
+{
+	width: 100%;
+	height: 885px;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+}
+
+.container img
+{
+	width: 100%;
+	height: 885px;
+	position: absolute;
+}
+
+.container .logo img
+{
+	width: 240px;
+	height: 150px;
+	margin-left: 550px;
+	margin-top: 90px;
+}
+
+.container .logo h4
+{
+	color: white;
+	position: absolute;
+	z-index: 2;
+	margin-top: 250px;
+	margin-left: 530px;
+	font-style: "impact";
+}
+
+.container .header
+{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	z-index: 1;
+	margin-top: 450px;
+	background: rgba(76,175,80,0.9);
+}
+
+.container .header img
+{
+	width: 160px;
+	height: 90px;
+	margin-left: 800px;
+	margin-top: 5px;
+}
+
+.navbar
+{
+	width: 80%;
+	height: 100px;
+	z-index: 1;
+	position: absolute;
+	background-color: none;
+	margin-top: 550px;
+	margin-left: 120px;
+}
+
+.navbar ul
+{
+	list-style-type: none;
+}
+
+.navbar ul li
+{
+	margin-left: 110px;
+	margin-top: 20px;
+	float: left;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 25px;
+	color: white;
+}
+
+.navbar ul li a
+{
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+.navbar ul li a:hover
+{
+	color: black;
+
+}
+
+.navbar ul li a.active
+{
+	color: black;
+	text-decoration-line: underline;
+}
+
+#ID 
+{
+	position: absolute;
+	margin-top: 660px;
+	margin-left: 1000px;
+	z-index: 1;
+	font-size: 20px;
+	color: white;
+}
+
+#ID a
+{
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+
+#ID a:hover
+{
+	color: black;
+}
+
+#ID a.active
+{
+	color: black;
+}
+
+#atau
+{
+	position: absolute;
+	margin-top: 660px;
+	margin-left: 1030px;
+	z-index: 1;
+	font-size: 20px;
+	color: white;
+}
+
+#EN
+{
+	position: absolute;
+	margin-top: 660px;
+	margin-left: 1050px;
+	z-index: 1;
+	font-size: 20px;
+	color: white;
+}
+
+#EN a
+{
+	text-decoration: none;
+	display: block;
+	color: white;
+}
+
+#EN a:hover
+{
+	color: black;
+}
+
+#EN a.active
+{
+	color: black;
+}
+
+.container .logo .judul
+{
+	font-size: 100px; 
+	z-index: 2;
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 540px;
+	color: white;
+	 font-family: 'Condiment';
+}
+
+.content-kuliner
+{
+	width: 100%;
+	height: 1200px;
+	position: relative;
+	z-index: 5;
+	margin-top: 700px;
+}
+
+.content-kuliner a
+{
+	text-decoration: none;
+	color: green;
+}
+
+.content-kuliner #Gambar1 img
+{
+	width: 30%;
+	height: 270px;
+	position: absolute;
+	margin: 50px;
+}
+
+.content-kuliner #Gambar2 img
+{
+	width: 30%;
+	height: 300px;
+	position: absolute;
+	margin: 50px;
+	margin-top: 400px;
+}
+
+.content-kuliner #Gambar3 img
+{
+	width: 30%;
+	height: 300px;
+	position: absolute;
+	margin: 50px;
+	margin-top: 800px;
+}
+
+.content-kuliner #Gambar1 .isi-content
+{
+	width: 700px;
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 40px;
+	font-family: Garamond, serif;
+}
+
+.isi-content p
+{
+	font-family: Garamond, serif;
+	font-size: 20px;
+}
+
+.content-kuliner #Gambar2 .isi-content
+{
+	width: 700px;
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 400px;
+	font-family: Garamond, serif;
+}
+
+.content-kuliner #Gambar3 .isi-content
+{
+	width: 700px;
+	position: absolute;
+	margin-left: 500px;
+	margin-top: 800px;
+	font-family: Garamond, serif;
+}
+
+
+.berita
+{
+	width: 100%;
+	height: 150px;
+	position: absolute;
+	z-index: 1;
+	margin-top: 733px;
+	background: rgba(76,80,180,0.9);
+}
+
+#berita 
+{
+	font-family: Garamond, serif;
+	color: white;
+	font-size: 23px;
+}
+
+.top-content
+{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	z-index: 1;
+	margin-top: 900px;
+	background: white;
+}
+
+.top-content h2
+{
+	font-family: "Comic Sans MS", cursive;
+	font-size: 30px;
+	margin-top: 0px;
+
+}
+
+.Destinasi
+{
+	width: 100%;
+	height: 600px;
+	position: relative;
+	z-index: 1;
+	margin-top: 965px;
+	background: rgba(0,0,0,0.9);
+}
+
+.Destinasi #content1
+{
+	width: 100%;
+	height: 50%;
+	position: relative;
+	z-index: 2;
+	background-color: none;
+}
+
+.Destinasi #content1 #deskripsi
+{
+	width: 25%;
+	height: 100%;
+	background-color: gray;
+	z-index: 3;
+	position: absolute;
+	margin-left: 50%;
+}
+
+.Destinasi #content1 #deskripsi p
+{
+	color: white;
+	text-align: left;
+	font-size: 17px;
+	margin: 10px;
+	margin-top: 30px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+.Destinasi #content1 #deskripsi h2
+{
+	color: white;
+	text-align: right;
+	font-size: 20px;
+	margin: 10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.Destinasi #content1 img
+{
+	width: 50%;
+	height: 100%;
+}
+
+.Destinasi #content2
+{
+	width: 100%;
+	height: 50%;
+	position: relative;
+	z-index: 2;
+	background: none;
+}
+
+.Destinasi #content2 img
+{
+	width: 50%;
+	height: 100%;
+	margin-right: 0;
+	margin-left: 50%;
+}
+
+.Destinasi #content2 #deskripsi1
+{
+	width: 25%;
+	height: 100%;
+	background-color: gray;
+	z-index: 3;
+	position: absolute;
+	margin-left: 25%;
+}
+
+.Destinasi #content2 #deskripsi1 p
+{
+	color: white;
+	text-align: left;
+	font-size: 17px;
+	margin: 10px;
+	margin-top: 40px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.Destinasi #content2 #deskripsi1 h2
+{
+	color: white;
+	text-align: right;
+	font-size: 20px;
+	margin:10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.top-content1
+{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	z-index: 1;
+	margin-top: 0px;
+	background: white;
+}
+
+.top-content1 h2
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 30px;
+	margin-top: 5px;
+
+}
+
+.Event
+{
+	width: 100%;
+	height: 300px;
+	position: relative;
+	z-index: 1;
+	margin-top: 65px;
+	background: rgba(0,0,0,0.9);
+}
+
+.Event img
+{
+	width: 40%;
+	height: 300px;
+	margin-left: 0;
+	position: absolute;
+}
+
+.Event #deskripsi2
+{
+	width: 25%;
+	height: 100%;
+	background-color: gray;
+	z-index: 3;
+	position: absolute;
+	margin-left: 40%;
+	margin-top: 0;
+
+}
+
+.Event #deskripsi2 p
+{
+	color: white;
+	text-align: left;
+	font-size: 17px;
+	margin: 10px;
+	margin-top: 40px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.Event #deskripsi2 h2
+{
+	color: white;
+	text-align: right;
+	font-size: 20px;
+	margin:10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.Event .Gambar2 img
+{
+	margin-left: 60%;
+}
+
+.top-content2
+{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	z-index: 1;
+	margin-top: 0px;
+	background: white;
+}
+
+.Kuliner
+{
+	width: 100%;
+	height: 600px;
+	position: relative;
+	z-index: 1;
+	margin-top: 65px;
+	background: rgba(0,0,0,0.9);
+}
+
+.Kuliner #content1
+{
+	width: 100%;
+	height: 50%;
+	position: relative;
+	z-index: 2;
+	background-color: none;
+}
+
+.Kuliner #content1 img
+{
+	width: 30%;
+	height: 100%;
+	margin-left: 0;
+	position: absolute;
+}
+
+.Kuliner #content1 #deskripsi2
+{
+	width: 25%;
+	height: 100%;
+	background-color: gray;
+	z-index: 3;
+	position: absolute;
+	margin-left: 25%;
+	margin-top: 0;
+}
+
+
+.Kuliner #content1 #deskripsi2 p
+{
+	color: white;
+	text-align: left;
+	font-size: 17px;
+	z-index: 4;
+	margin: 10px;
+	margin-top: 40px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.Kuliner #content1 #deskripsi2 h2
+{
+	color: white;
+	text-align: right;
+	font-size: 20px;
+	margin:10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+.Kuliner #content2
+{
+	width: 100%;
+	height: 50%;
+	position: relative;
+	z-index: 2;
+	background: none;
+}
+
+.Kuliner #content2 img
+{
+	width: 25%;
+	height: 100%;
+	margin-left: 75%;
+}
+
+.Kuliner #content2 #deskripsi2
+{
+	width: 25%;
+	height: 100%;
+	background-color: gray;
+	z-index: 3;
+	position: absolute;
+	margin-left: 50%;
+	margin-top: 0;
+}
+
+.Kuliner #content2 #deskripsi2 p
+{
+	color: white;
+	text-align: left;
+	font-size: 17px;
+	z-index: 4;
+	margin: 10px;
+	margin-top: 40px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.Kuliner #content2 #deskripsi2 h2
+{
+	color: white;
+	text-align: right;
+	font-size: 20px;
+	margin:10px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+.footer
+{
+	width: 100%;
+	height: 300px;
+	background: rgba(76,150,80,0.9);
+}
+
+.footer img
+{
+	width: 100%;
+	height: 300px;
+	z-index: -1;
+}
+
+.footer img.logo-hitam
+{
+	width: 27%;
+	height: 190px;
+	z-index: 1;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+.footer .navbar 
+{
+	width: 40%;
+	height: 100px;
+	z-index: 1;
+	position: absolute;
+	background-color: none;
+	margin-top: 40px;
+	margin-left: 740px;
+}
+
+.footer.navbar ul
+{
+	list-style-type: none;
+}
+
+.footer .navbar ul li
+{
+	margin-left: 30px;
+	margin-top: 0px;
+	float: left;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 25px;
+	color: black;
+}
+
+.footer .navbar ul li a
+{
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+
+.footer .navbar ul li a:hover
+{
+	color: black;
+
+}
+
+.sosmed li 
+{
+	float: left;
+	list-style: none;
+	margin-left: 850px;
+	margin-top: 130px;
+	display: inline-block;
+	position: absolute;
+	font-family: "Comic Sans MS", cursive;
+}
+
+.sosmed li a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.sosmed li img 
+{
+	width: 40px;
+	height: 40px;
+	margin-left: -40px;
+	margin-top: -10px;
+	position: absolute;
+	z-index: 4;
+}
+
+/*.form
+{
+	position: relative;
+	width: 100%;
+	height: 2500px;
+}
+*/
+.background-form
+{
+	width: 100%;
+	height: 200px;
+	position: absolute;
+}
+
+.logo-form
+{
+	width: 100%;
+	height: 140px;
+	position: fixed;
+	margin-top: 0;
+	background: rgb(76,150,80);
+}
+
+.logo-form img
+{
+	width: 190px;
+	height: 120px;
+	margin-left: 30px;
+	margin-top: 10px;
+	position: absolute;
+}
+
+.logo-form .navbar-form ul
+{
+	margin: 0;
+	list-style-type: none;
+	margin-left: 180px;
+}
+
+.logo-form .navbar-form ul li
+{
+	float: left;
+	margin: 40px;
+	margin-left: 100px;
+	font-size: 25px;
+	font-family: "Comic Sans MS", cursive;
+
+}
+
+.logo-form .navbar-form ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.logo-form .navbar-form ul li a:hover
+{
+	color: black;
+
+}
+
+.logo-form .navbar-form ul li a.active
+{
+	color: black;
+	text-decoration-line: underline;
+}
+
+.top-form
+{
+	width: 100%;
+	height: 120px;
+	background: rgb(76,150,80);
+	margin-top: 140px;
+	position: absolute;
+}
+
+.kepala-form
+{
+	width: 440px;
+	height: 50px;
+	margin-top: 170px;
+	margin-left: 450px;
+	background-color: steelblue;
+	position: absolute;
+	border-radius: 4px;
+	z-index: -1;
+}
+
+.kepala-form h3
+{
+	color: white;
+	text-align: center;
+}
+
+.form-identitas 
+{
+	width: 400px;
+	padding: 5px 20px 0;
+	background-color: rgb(76,150,80);
+	margin-top: 220px;
+	margin-left: 450px;
+	position: absolute;
+	border-radius: 4px;
+	z-index: -1;
+}
+
+.form-identitas .group
+{
+	margin: 16px 0;
+}
+
+.form-identitas .group label,
+.form-identitas .group input 
+{
+	display: block;
+}
+
+.form-identitas .group label
+{
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+.form-identitas .group input[type="text"],
+.form-identitas .group input[type="date"],
+.form-identitas .group input[type="textarea"]
+{
+	width: 95%;
+	height: 30px;
+	padding: 0 10px;
+	background: #eeeeee;
+	border: none;
+	color: #808080;
+}
+
+.form-identitas .group input[list="Kategori"]
+{
+	width: 50%;
+	height: 30px;
+	padding: 0 10px;
+	background: #eeeeee;
+	border: none;
+	color: #808080;
+}
+
+.form-identitas .group input[list="Tanggal"]
+{
+	width: 10%;
+	height: 20px;
+	padding: 0 10px;
+	background: #eeeeee;
+	border: none;
+	color: #808080;
+}
+
+.form-identitas .group input[list="Bulan"]
+{
+	width: 30%;
+	height: 20px;
+	padding: 0 10px;
+	background: #eeeeee;
+	border: none;
+	color: #808080;
+}
+
+.form-identitas .group input[type="Radio"],
+.form-identitas .group input[type="checkbox"]
+{
+	float: left;
+}
